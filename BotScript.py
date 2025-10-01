@@ -5,7 +5,7 @@ api_hash = "f4b55c3207ed993ad7063e276771f75e"     # твой api_hash
 
 client = TelegramClient("forward_bot", api_id, api_hash)
 
-SOURCE_CHANNEL = -1002417640134   # заменяй на свой канал
+SOURCE_CHANNEL = -1002743493594   # заменяй на свой канал
 TARGET_CHANNEL = -1001944497734   # заменяй на свой канал
 
 @client.on(events.NewMessage(chats=SOURCE_CHANNEL))
